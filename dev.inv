@@ -1,2 +1,7 @@
-[webservers]
-172.31.12.189 ansible_user=ec2-user 
+[web]
+3.92.152.144
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+
